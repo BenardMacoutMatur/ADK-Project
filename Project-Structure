@@ -1,0 +1,17 @@
+manager/
+├── data/                         # Storage for uploaded/processed files
+├── sub_agents/
+│   └── fraud_agent/              # Fraud-focused sub-agents
+│       └── __init__.py
+├── tools/                        # Specialized analysis tools
+│   ├── auto_save_uploaded_file.py
+│   ├── cleaning.py
+│   ├── detect_third_party_payments.py
+│   ├── payer_tools.py
+│   └── run_payment_analysis.py
+├── utils/                        # Helper utilities
+│   ├── ensure_csv.py
+│   ├── pre_processor.py
+│   └── __init__.py
+├── agent.py                      # Root manager agent definition
+├── prompt.py                     # System instructions for agents
